@@ -1,0 +1,15 @@
+# See https://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories for more about ignoring files.
+
+# testing
+/coverage/*
+
+# production
+/build/*
+/release-builds/*
+
+#files for electron development
+electron-wait-react.js
+electron-main.js
+
+src/serviceWorker.ts
+src/**/__tests__/**
